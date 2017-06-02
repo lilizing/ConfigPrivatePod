@@ -32,7 +32,7 @@ git remote add origin 远程repo地址
 ## 第五步：cd ConfigPrivatePod && ./config.sh，按照提示输入相关参数即可。
 
 
-### 第六步：发版到私库
+## 第六步：发版到私库
 
 
 cd 你的工程目录（比如：cd ProjectA)
