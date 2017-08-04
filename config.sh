@@ -65,7 +65,10 @@ do
     read -p "confirm? (y/n):" confirmed
 done
 
-mkdir -p "../${projectName}/${projectName}/${projectName}"
+#正式发布的内容放在这个文件夹中
+mkdir -p "../${projectName}/${projectName}/Classes"
+#实验阶段的内容放在这个文件夹下面 - 主要方便开发阶段Pod本地引用的处理
+mkdir -p "../${projectName}/${projectName}/Stage"
 
 licenseFilePath="../${projectName}/FILE_LICENSE"
 gitignoreFilePath="../${projectName}/.gitignore"
